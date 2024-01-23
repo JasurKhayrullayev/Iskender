@@ -1,0 +1,54 @@
+.category-wrapper{
+    padding-top: 50px;
+}
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.category-title{
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.category-item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.category-item-title{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.category-item-amount{
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey;
+}
+
+.category-item-img{
+    margin-top: 16px;
+    width: 160px;
+    height: 114px;
+}

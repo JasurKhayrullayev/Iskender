@@ -1,0 +1,144 @@
+.footer{
+    background-color: #2D82BE;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 133px;
+    border-bottom: 1px solid #FFFFFF1F;
+}
+
+.footer-first , .footer-second , .footer-third , .footer-four{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo{
+    width: 184px;
+    height: 51px;
+    margin-bottom: 42px;
+}
+
+.footer-first-pr{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-first-bot{
+    display: flex;
+    gap: 18px;
+    margin-top: 72px;
+}
+
+.footer-second-title , .footer-third-title , .footer-four-title{
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.footer-second-pr , .footer-second-pr2 , .footer-second-pr4{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #cccaca;
+    margin-bottom: 5px;
+}
+
+.footer-second-pr1 , .footer-second-pr3 , .footer-second-pr5{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-third-pr{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#FFFFFFCC;
+    margin-bottom: 15px;
+}
+
+.footer-four-pr , .footer-four-tel{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #E0E0E0;
+    margin-bottom: 5px;
+}
+
+.footer-four-email{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-four-telLink{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer-four-link{
+    margin-top: 40px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0;  
+}
+
+.footer-bottom-pr{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF80;
+}
+
+.footer-bottom-media{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-bottom-ins , .footer-bottom-face{
+    color:#fff;
+}

@@ -1,0 +1,42 @@
+.news-container{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+
+.news-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-link{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3186C3;
+}
+
+.news-title{
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.news{
+    display: flex;
+    margin-top: 18px;
+    position: relative
+}
+
+.news-wrapper{
+    display: flex;
+    gap: 17px;
+}

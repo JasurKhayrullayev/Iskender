@@ -1,0 +1,146 @@
+.sale{
+    display: flex;
+    margin-top: 18px;
+    position: relative;
+}
+
+.sale-container{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.sale-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sale-link{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3186C3;
+}
+
+.sale-title{
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sale-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.sale-item{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 199px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.btn-left{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    color: black;
+}
+
+.btn-right{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    color: black;
+}
+
+.sale-btn{
+    border: none;
+    background-color: rgb(237, 237, 237);
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px;
+    left: 155px;
+}
+
+.sale-item-title{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    height: 51px;
+    margin-top: 10px;
+}
+
+.sale-item-price{
+    font-family: Gilroy;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.sale-item-has{
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: green;
+    margin-top: 2px;
+}
+
+.sale-item-amount{
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#3286C2;
+    margin-top: 6px;
+}
+
+.sale-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.sale-count-btn{
+    border:none;
+    border-color: #F5F5F5;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.sale-count-num{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+}

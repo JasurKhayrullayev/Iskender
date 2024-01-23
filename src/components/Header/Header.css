@@ -1,0 +1,135 @@
+.header{
+    background-color: #2D82BE;
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+    display: flex;
+    height: 40px;
+}
+
+.header-logo-link{
+    padding: 5px 0;
+    margin-right: 52px;
+}
+
+.header-katalog{
+    padding: 12px 25px 11px 26px;
+    display: flex;
+    color:white;
+    background-color:#1166a4;
+    border-radius: 100px;
+    margin-right: 22px;
+}
+
+.header-katalog-ico{
+    width: 15px;
+    height: 9px;
+}
+
+.header-katalog-par{
+    color:white;
+    margin-left: 15px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-search{
+    display: flex;
+    width: 660px;
+    height: 40px;
+    padding: 11px 20px 11px 14px;
+    background-color:white;
+    color: #ABABAB;
+    border-radius: 1000px;
+    margin-right: 22px;
+}
+
+.header-search-prg{
+    margin-left: 9px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-search-num{
+    margin-left: 534px;
+}
+
+.header-auth{
+    display: flex;
+    padding: 2px;
+}
+
+.header-auth-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 9px;
+}
+
+.header-auth-top{
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:white;
+    align-self: flex-end;
+}
+
+.header-auth-bottom{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:white;
+    margin-top: 1px;
+}
+
+.header-auth-right, .header-korzina{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    border-radius: 50%;
+    color:#C1C1C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-line{
+    margin: 0 10px;
+    border: 1px solid #FFFFFF33;
+}
+
+.header-korzina-num{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: red;
+    color:#fff;
+    border-radius: 50%;
+    font-family: Gilroy;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: center;
+    top: -5px;
+    right: -5px;
+}

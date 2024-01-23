@@ -1,0 +1,122 @@
+.address{
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.address-wrapper{
+    padding-top: 50px;
+    margin-bottom: 66px;
+}
+
+.address-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.address-list-item{
+    width: 408px;
+    height: 179px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.address-list-top{
+    display: flex;
+    position: relative;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.address-list-topIt{
+    display: flex;
+}
+
+.address-list-topImg{
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+.address-list-topWr{
+    display: flex;
+    flex-direction: column;
+}
+
+.address-list-topTit{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.address-list-topMap{
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#0062D5;
+    text-decoration: underline
+}
+
+.address-list-topBtn{
+    border: none;
+    background: inherit;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.address-name{
+    display: flex;
+    padding-top: 21px;
+    margin-bottom: 22px;
+}
+
+.address-name-ico{
+    color:#0062D5;
+    margin-right: 5px;
+}
+
+.address-name-pr{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.address-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-time{
+    display: flex;
+    align-items: center;
+}
+
+.address-time-ico , .address-phone-ico{
+    color:#0062D5;
+    margin-right: 11px;
+}
+
+.address-time-num , .address-phone-num{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
